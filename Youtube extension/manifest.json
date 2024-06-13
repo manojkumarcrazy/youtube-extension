@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+   
+    "name": "yellow",
+    "version": "1.0.0",
+    "description": "yellow theme for youtube",
+   
+    "content_scripts": [{
+      "css": ["styls.css"],
+      "matches": ["https://www.youtube.com/*"]
+    }]
+   
+  }
+  
