@@ -1,0 +1,298 @@
+/* Change the background color of the YouTube header */
+ /* Change the color of the video titles */
+ 
+ /* ytd-app{
+    background-color: rgb(156, 27, 143) !important;
+    font-family: 'Times New Roman', Times, serif !important ;
+    font-style: italic !important;
+    /*color: blueviolet !important;
+    
+}*/
+/* *{
+    font-style: italic !important;
+} */
+
+@font-face {
+    font-family: 'my';
+    src: url('./fonts/Scream\ Real.otf') format('otf') !important;
+
+}
+*{
+    font-family: 'my',sans-serif  !important;
+     font-style: inherit !important;  
+     border-radius: 30px !important;
+     border-bottom:goldenrod ;
+}
+/* body{
+      background-color: blueviolet !important; 
+   
+     
+} */
+  ytd-watch-metadata{
+    color: goldenrod !important;
+    font-style: italic !important;
+    font-family: sans-serif !important;
+  }
+
+ytd-rich-grid-row{
+
+    background-color: #000000 !important;
+    font-family: 'Times New Roman', Times, serif !important ;
+    font-style: italic !important;
+    /*color: blueviolet !important;*/
+}
+#dismissible.ytd-rich-shelf-renderer{
+
+    font-style:italic !important;
+    background: #b7822e !important;
+}
+.yt-core-image{
+    background: rgb(35, 21, 93) !important;
+}
+#video-title, .title, .yt-simple-endpoint.style-scope.ytd-video-renderer{
+
+    color: rgb(224, 235, 13) !important;
+    font-style: italic !important;
+}
+#container.ytd-searchbox{
+
+    background-color: blueviolet !important;
+}
+
+#center.ytd-masthead
+{
+    color: blueviolet !important;
+}
+
+}
+#search-input.ytd-searchbox-spt input {
+    background-color: violet !important;
+}
+#container.ytd-searchbox{
+    background: rgb(39, 177, 43) !important;
+}
+#search-input.ytd-searchbox-spt input{
+    background-color:  #860606 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-style: italic !important;
+    text-align: inherit !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+#search-icon.ytd-searchbox{
+    color:cadetblue !important;
+}
+ytd-searchbox[system-icons] #search-icon-legacy.ytd-searchbox yt-icon.ytd-searchbox {
+    color: #a20c0c !important;
+}
+yt-formatted-string[ellipsis-truncate-styling] {
+    display: block !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    color: #822b2b !important;
+}
+html[system-icons][dark], html[system-icons] [dark] {
+    --yt-spec-icon-inactive: #b0d617 !important;
+    --yt-spec-icon-disabled: #717171 !important;
+    --yt-spec-brand-icon-inactive: #fff !important;
+}
+
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: #d42b2b !important;
+}
+yt-formatted-string.ytd-comments-header-renderer {
+    color: #c62e00 !important;
+    font-style: italic !important;
+}
+.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
+    color: green !important;
+}
+canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form, h1, h2, h3, h4, h5, h6, hr, i, iframe, img, ins, kbd, label, legend, li, menu, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border-radius: 20px !important;
+    /* background: #311c40 !important; */
+}
+element.style {
+    color: rgb(6 206 252);
+}
+#content-text.ytd-comment-view-model {
+    --yt-endpoint-color: #0e3251;
+    --yt-endpoint-hover-color: var(--yt-spec-call-to-action);
+    --yt-endpoint-visited-color: var(--yt-spec-call-to-action);
+    color: #a6e60f !important;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    font-style: italic !important;
+}
+#owner-sub-count.ytd-video-owner-renderer {
+    color: #0944ff !important;
+    margin-right: 4px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    overflow: hidden;
+    display: block;
+    max-height: 1.8rem;
+    -webkit-line-clamp: 1;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+img.yt-img-shadow {
+    display: block;
+    margin-left: var(--yt-img-margin-left,auto);
+    margin-right: var(--yt-img-margin-right,auto);
+    max-height: var(--yt-img-max-height,none);
+    max-width: var(--yt-img-max-width,100%);
+   border-radius: 50px !important;
+}
+button {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    border-radius: 30px !important;
+}
+element.style {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #c62e00 !important;
+}
+yt-icon.ytd-logo {
+    height: 20px;
+    width: 90px;
+    padding: 18px 14px 18px 16px;
+    color: #13ff07 !important;
+    flex: none;
+    border-radius: 20px !important;
+    font-style: italic !important
+}
+#metadata-line.ytd-video-meta-block {
+    color: #c40cf5 !important;
+    max-width: 100%;
+    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+#guide-icon.ytd-masthead {
+    color: #ff001a !important;
+}
+ytd-mini-guide-entry-renderer[is-active] .guide-icon.ytd-mini-guide-entry-renderer {
+    color: #f00 !important;
+}
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text {
+    color: #a2ff0a !important;
+}
+#search-icon-legacy.ytd-searchbox {
+    border: 1px solid var(--ytd-searchbox-legacy-button-border-color);
+    background-color: hsl(304.54deg 100% 50% / 8%) !important;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    height: 40px;
+    width: 64px;
+    margin: 0;
+}
+button.ytd-topbar-menu-button-renderer {
+    background: none;
+    /* border: none; */
+   
+    outline: none;
+    display: flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+yt-img-shadow.ytd-topbar-menu-button-renderer {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin: 0 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    overflow: hidden;
+    border-radius: 30px !important;
+}
+element.style {
+    color: rgb(211 17 17) !important;
+}
+#description.ytd-watch-metadata {
+    --ytd-text-inline-expander-button-color: #a10c0c !important;
+    position: relative;
+    border-radius: 12px;
+    background: var(--yt-spec-badge-chip-background);
+    min-width: 100%;
+    min-width: max(381px,50% - 12px);
+    flex: 1;
+    flex-basis: 0.000000001px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+yt-icon, .yt-icon-container.yt-icon {
+    display: inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+    fill: var(--iron-icon-fill-color,currentcolor);
+    stroke: var(--iron-icon-stroke-color,none);
+    width: var(--iron-icon-width,24px);
+    height: var(--iron-icon-height,24px);
+    animation: var(--iron-icon-animation);
+    margin-top: var(--iron-icon-margin-top);
+    margin-right: var(--iron-icon-margin-right);
+    margin-bottom: var(--iron-icon-margin-bottom);
+    margin-left: var(--iron-icon-margin-left);
+    padding: var(--iron-icon-padding);
+    border-radius: 30px !important;
+}

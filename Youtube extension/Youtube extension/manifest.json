@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+   
+    "name": "Color Theme For Youtube ",
+    "version": "2.0.0",
+    "description": "color theme for youtube",
+  
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "matches": ["https://www.youtube.com/*"]
+   
+  }]
+    }
