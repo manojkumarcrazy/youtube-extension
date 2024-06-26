@@ -1,0 +1,452 @@
+/* Change the background color of the YouTube header */
+ /* Change the color of the video titles */
+ 
+ /* ytd-app{
+    background-color: rgb(156, 27, 143) !important;
+    font-family: 'Times New Roman', Times, serif !important ;
+    font-style: italic !important;
+    /*color: blueviolet !important;
+    
+}*/
+/* *{
+    font-style: italic !important;
+} */
+
+@font-face {
+    font-family: 'my';
+    src: url('./fonts/Scream\ Real.otf') format('otf') !important;
+
+}
+*{
+    font-family: 'my',sans-serif  !important;
+     font-style: italic !important;  
+     border-radius: 30px !important;
+     border-bottom:goldenrod ;
+    /* background: url(https://images.hdqwalls.com/download/samurai-cyberpunk-minimal-dark-8k-b3-7680x4320.jpg)fixed transparent!important;
+    background-size: cover !important;  */
+     
+  
+    
+
+    }
+
+
+  ytd-watch-metadata{
+    color: goldenrod !important;
+    font-style: italic !important;
+    font-family: sans-serif !important;
+  }
+
+ytd-rich-grid-row{
+
+    background-color: #000000 !important;
+    font-family: 'Times New Roman', Times, serif !important ;
+    font-style: italic !important;
+    /*color: blueviolet !important;*/
+}
+#dismissible.ytd-rich-shelf-renderer{
+
+    font-style:italic !important;
+    background: #b7822e !important;
+}
+.yt-core-image{
+    background: rgb(35, 21, 93) !important;
+}
+#video-title, .title, .yt-simple-endpoint.style-scope.ytd-video-renderer{
+
+    color: rgb(224, 235, 13) !important;
+    font-style: italic !important;
+}
+#container.ytd-searchbox{
+
+    background-color: blueviolet !important;
+}
+
+#center.ytd-masthead
+{
+    color: blueviolet !important;
+}
+
+
+#search-input.ytd-searchbox-spt input {
+    background-color: violet !important;
+}
+#container.ytd-searchbox{
+    background: rgb(39, 177, 43) !important;
+}
+#search-input.ytd-searchbox-spt input{
+    background-color:  #860606 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-style: italic !important;
+    text-align: inherit !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+#search-icon.ytd-searchbox{
+    color:cadetblue !important;
+}
+ytd-searchbox[system-icons] #search-icon-legacy.ytd-searchbox yt-icon.ytd-searchbox {
+    color: #a20c0c !important;
+}
+yt-formatted-string[ellipsis-truncate-styling] {
+    display: block !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    color: #822b2b !important;
+}
+html[system-icons][dark], html[system-icons] [dark] {
+    --yt-spec-icon-inactive: #b0d617 !important;
+    --yt-spec-icon-disabled: #717171 !important;
+    --yt-spec-brand-icon-inactive: #fff !important;
+}
+
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: #d42b2b !important;
+}
+yt-formatted-string.ytd-comments-header-renderer {
+    color: #c62e00 !important;
+    font-style: italic !important;
+}
+.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
+    color: rgb(8, 19, 123) !important;
+}
+canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form, h1, h2, h3, h4, h5, h6, hr, i, iframe, img, ins, kbd, label, legend, li, menu, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border-radius: 20px !important;
+    /* background: #311c40 !important; */
+}
+element.style {
+    color: rgb(6 206 252);
+}
+#content-text.ytd-comment-view-model {
+    --yt-endpoint-color: #0e3251;
+    --yt-endpoint-hover-color: var(--yt-spec-call-to-action);
+    --yt-endpoint-visited-color: var(--yt-spec-call-to-action);
+    color: #a6e60f !important;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    font-style: italic !important;
+}
+#owner-sub-count.ytd-video-owner-renderer {
+    color: #0944ff !important;
+    margin-right: 4px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    overflow: hidden;
+    display: block;
+    max-height: 1.8rem;
+    -webkit-line-clamp: 1;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+img.yt-img-shadow {
+    display: block;
+    margin-left: var(--yt-img-margin-left,auto);
+    margin-right: var(--yt-img-margin-right,auto);
+    max-height: var(--yt-img-max-height,none);
+    max-width: var(--yt-img-max-width,100%);
+   border-radius: 50px !important;
+}
+button {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    border-radius: 30px !important;
+}
+element.style {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #c62e00 !important;
+}
+yt-icon.ytd-logo {
+    height: 20px;
+    width: 90px;
+    padding: 18px 14px 18px 16px;
+    color: #13ff07 !important;
+    flex: none;
+    border-radius: 20px !important;
+    font-style: italic !important
+}
+#metadata-line.ytd-video-meta-block {
+    color: #c40cf5 !important;
+    max-width: 100%;
+    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+#guide-icon.ytd-masthead {
+    color: #ff001a !important;
+}
+ytd-mini-guide-entry-renderer[is-active] .guide-icon.ytd-mini-guide-entry-renderer {
+    color: #f00 !important;
+}
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text {
+    color: #a2ff0a !important;
+}
+#search-icon-legacy.ytd-searchbox {
+    border: 1px solid var(--ytd-searchbox-legacy-button-border-color);
+    background-color: hsl(304.54deg 100% 50% / 8%) !important;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    height: 40px;
+    width: 64px;
+    margin: 0;
+}
+button.ytd-topbar-menu-button-renderer {
+    background: none;
+    /* border: none; */
+   
+    outline: none;
+    display: flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+yt-img-shadow.ytd-topbar-menu-button-renderer {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin: 0 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    overflow: hidden;
+    border-radius: 30px !important;
+}
+element.style {
+    color: rgb(211 17 17) !important;
+}
+#description.ytd-watch-metadata {
+    --ytd-text-inline-expander-button-color: #a10c0c !important;
+    position: relative;
+    border-radius: 12px;
+    background: var(--yt-spec-badge-chip-background);
+    min-width: 100%;
+    min-width: max(381px,50% - 12px);
+    flex: 1;
+    flex-basis: 0.000000001px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+yt-icon, .yt-icon-container.yt-icon {
+    display: inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+    fill: var(--iron-icon-fill-color,currentcolor);
+    stroke: var(--iron-icon-stroke-color,none);
+    width: var(--iron-icon-width,24px);
+    height: var(--iron-icon-height,24px);
+    animation: var(--iron-icon-animation);
+    margin-top: var(--iron-icon-margin-top);
+    margin-right: var(--iron-icon-margin-right);
+    margin-bottom: var(--iron-icon-margin-bottom);
+    margin-left: var(--iron-icon-margin-left);
+    padding: var(--iron-icon-padding);
+    border-radius: 30px !important;
+}
+html[darker-dark-theme][dark], [darker-dark-theme] [dark] {
+    --yt-spec-text-primary: #f300f2 !important;
+    --yt-spec-text-primary-inverse: #0f0f0f !important;
+    font-style: italic !important;
+}
+html[dark], [dark] {
+    background:url(https://images.hdqwalls.com/download/samurai-cyberpunk-minimal-dark-8k-b3-7680x4320.jpg)fixed #000!important ;
+    background-size: cover !important;
+    --yt-spec-raised-background: #1e7435;
+    --yt-spec-menu-background: #161f41;
+    --yt-spec-inverted-background: #f1f1f1;
+    --yt-spec-additive-background: rgba(255,255,255,0.1);
+    --yt-spec-outline: rgba(255,255,255,0.2);
+    --yt-spec-outline-inverse: rgba(0,0,0,0.1);
+    --yt-spec-outline-inverse-medium: rgba(0,0,0,0.3);
+    --yt-spec-shadow: rgba(0,0,0,0.25);
+    --yt-spec-text-primary: #fff;
+    --yt-spec-text-secondary: #aaa;
+    --yt-spec-text-disabled: #717171;
+    --yt-spec-text-primary-inverse: #030303;
+    --yt-spec-call-to-action: #3ea6ff;
+    --yt-spec-call-to-action-inverse: #065fd4;
+    --yt-spec-suggested-action: #263850;
+    --yt-spec-suggested-action-inverse: #def1ff;
+    --yt-spec-icon-active-other: #fff;
+    --yt-spec-icon-inactive: #909090;
+    --yt-spec-icon-disabled: #606060;
+    --yt-spec-button-chip-background-hover: rgba(255,255,255,0.2);
+    --yt-spec-touch-response: #fff;
+    --yt-spec-touch-response-inverse: #000;
+    --yt-spec-brand-icon-active: #fff;
+    --yt-spec-brand-icon-inactive: #909090;
+    --yt-spec-red-indicator: #e1002d;
+    --yt-spec-wordmark-text: #fff;
+    --yt-spec-error-indicator: #ff8983;
+    --yt-spec-themed-blue: #3ea6ff;
+    --yt-spec-themed-green: #2ba640;
+    --yt-spec-ad-indicator: #00aaa7;
+    --yt-spec-themed-overlay-background: rgba(0,0,0,0.8);
+    --yt-spec-commerce-badge-background: #002d08;
+    --yt-spec-static-white-background: #fff;
+    --yt-spec-static-black: #0f0f0f;
+    --yt-spec-static-brand-red: #f00;
+    --yt-spec-static-brand-white: #fff;
+    --yt-spec-static-brand-black: #212121;
+    --yt-spec-static-clear-color: rgba(255,255,255,0);
+    --yt-spec-static-clear-black: rgba(0,0,0,0);
+    --yt-spec-static-ad-yellow: #fbc02d;
+    --yt-spec-static-grey: #606060;
+    --yt-spec-brand-red-contrast: #f57;
+    --yt-spec-static-overlay-additive-background: rgba(40,40,40,0.6);
+    --yt-spec-static-overlay-background-solid: #000;
+    --yt-spec-static-overlay-background-heavy: rgba(0,0,0,0.8);
+    --yt-spec-static-overlay-background-medium: rgba(0,0,0,0.6);
+    --yt-spec-static-overlay-background-medium-light: rgba(0,0,0,0.3);
+    --yt-spec-static-overlay-background-light: rgba(0,0,0,0.1);
+    --yt-spec-static-overlay-text-primary: #fff;
+    --yt-spec-static-overlay-text-primary-inverse: #030303;
+    --yt-spec-static-overlay-text-secondary: rgba(255,255,255,0.7);
+    --yt-spec-static-overlay-text-disabled: rgba(255,255,255,0.3);
+    --yt-spec-static-overlay-call-to-action: #3ea6ff;
+    --yt-spec-static-overlay-call-to-action-hover: #65b8ff;
+    --yt-spec-static-overlay-icon-active-other: #fff;
+    --yt-spec-static-overlay-icon-inactive: rgba(255,255,255,0.7);
+    --yt-spec-static-overlay-icon-disabled: rgba(255,255,255,0.3);
+    --yt-spec-static-overlay-button-primary: rgba(255,255,255,0.3);
+    --yt-spec-static-overlay-button-secondary: rgba(255,255,255,0.1);
+    --yt-spec-static-overlay-touch-response: #fff;
+    --yt-spec-static-overlay-touch-response-inverse: #000;
+    --yt-spec-static-overlay-background-brand: rgba(204,0,0,0.9);
+    --yt-spec-assistive-feed-themed-gradient-1: #005446;
+    --yt-spec-assistive-feed-themed-gradient-2: #39003f;
+    --yt-spec-assistive-feed-themed-gradient-3: #590000;
+    --yt-spec-discover-red: #ff4e45;
+    --yt-spec-discover-green: #a4ffa4;
+    --yt-spec-discover-blue: #6ea2ff;
+    --yt-spec-brand-background-solid: #212121;
+    --yt-spec-brand-background-primary: rgba(33,33,33,0.98);
+    --yt-spec-brand-background-secondary: rgba(33,33,33,0.95);
+    --yt-spec-general-background-a: #181818;
+    --yt-spec-general-background-b: #0f0f0f;
+    --yt-spec-general-background-c: #030303;
+    --yt-spec-error-background: #f9f9f9;
+    --yt-spec-10-percent-layer: rgba(255,255,255,0.1);
+    --yt-spec-10-percent-layer-inverse: rgba(0,0,0,0.1);
+    --yt-spec-snackbar-background: #030303;
+    --yt-spec-snackbar-background-updated: #f9f9f9;
+    --yt-spec-badge-chip-background: rgba(255,255,255,0.1);
+    --yt-spec-badge-chip-background-inverse: rgba(0,0,0,0.05);
+    --yt-spec-verified-badge-background: rgba(255,255,255,0.25);
+    --yt-spec-brand-button-background: #c00;
+    --yt-spec-brand-link-text: #ff4e45;
+    --yt-spec-brand-link-text-faded: rgba(255,78,69,0.3);
+    --yt-spec-call-to-action-faded: rgba(62,166,255,0.3);
+    --yt-spec-call-to-action-hover: #6ebcff;
+    --yt-spec-brand-button-background-hover: #990412;
+    --yt-spec-filled-button-focus-outline: rgba(255,255,255,0.7);
+    --yt-spec-static-overlay-button-hover: rgba(255,255,255,0.5);
+    --yt-spec-mono-filled-hover: #d9d9d9;
+    --yt-spec-mono-filled-hover-inverse: #272727;
+    --yt-spec-commerce-filled-hover: #65b8ff;
+    --yt-spec-mono-tonal-hover: rgba(255,255,255,0.2);
+    --yt-spec-mono-tonal-hover-inverse: rgba(0,0,0,0.1);
+    --yt-spec-commerce-tonal-hover: #515561;
+    --yt-spec-static-overlay-filled-hover: #e6e6e6;
+    --yt-spec-static-overlay-tonal-hover: rgba(255,255,255,0.2);
+    --yt-frosted-glass-mobile: rgba(15,15,15,0.7);
+    --yt-frosted-glass-desktop: rgba(15,15,15,0.8);
+    --yt-spec-paper-tab-ink: rgba(255,255,255,0.3);
+    --yt-spec-filled-button-text: #030303;
+    --yt-spec-selected-nav-text: #fff;
+}
+a:-webkit-any-link {
+    color: rgb(16, 179, 223) !important;
+    cursor: pointer;
+    text-decoration:underline !important;
+    
+}
+
+
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
+    color: #0878db !important;
+   /* font-style: italic !important; */
+}
+#search-icon-legacy.ytd-searchbox {
+    border: 1px solid hsl(307.94deg 87.1% 45.87%) !important;
+    background-color: hsl(172.8deg 56.33% 17.23% / 8%);
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    height: 40px;
+    width: 64px;
+    margin: 0;
+
+}
+#background.ytd-masthead {
+    z-index: -1;
+    opacity: 1;
+    position: absolute;
+    height: 56px;
+    width: 100%;
+     background: #fb0a0a !important; 
+     
+}
+canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form, h1, h2, h3, h4, h5, h6, hr, i, iframe, img, ins, kbd, label, legend, li, menu, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px !important;
+    /* background:url(https://images.hdqwalls.com/download/samurai-cyberpunk-minimal-dark-8k-b3-7680x4320.jpg)fixed !important; */
+/* background-size:cover !important;
+background-color: transparent!important;
+} */
